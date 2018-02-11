@@ -15,5 +15,37 @@ public class Problem107 {
 
     public static void main(String[] args) {
 
+        int n;  // Number of CDs
+        int hundreds;  // Number of hundreds
+        int twenties;  // Number of twenties
+        int sum; // Total sum
+
+        n = 225;
+
+        if (n <= 0) {
+            System.out.println("Incorrect value - 0 or less");
+        }
+
+        else {
+// Count hundreds
+            if (n >= 100) {
+                hundreds = n/100;
+                n = n%100;
+            }
+            else {
+                hundreds = 0;
+            }
+// Count twenties
+            if (n >= 10) {
+                twenties = n/20;
+                n = n%20;
+            }
+            else {
+                twenties = 0;
+            }
+// Count sum
+            sum = hundreds*100 + twenties*30 + n*2;
+            System.out.println(sum);
+        }
     }
 }
