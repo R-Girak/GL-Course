@@ -1,3 +1,5 @@
+package Lesson6;
+
 /**
  * Created by roman.girak on 14/02/2018.
  */

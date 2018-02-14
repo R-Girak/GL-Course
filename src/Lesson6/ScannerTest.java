@@ -1,4 +1,4 @@
-/**
+package Lesson6; /**
  * Created by roman.girak on 12/02/2018.
  */
 import java.util.*;
