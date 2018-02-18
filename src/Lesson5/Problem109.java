@@ -3,7 +3,7 @@ package Lesson5;
 /**
  * Created by roman.girak on 14/02/2018.
  */
-public class Problem109unsolved {
+public class Problem109 {
 //    Page numbering
 //    https://www.e-olymp.com/en/problems/109
 //
@@ -14,8 +14,10 @@ public class Problem109unsolved {
 //    Print the number of pages in the book.
 
     public static void main(String[] args) {
+        int n = 8;
 
-        // UCLEAR REQUIREMENTS
-
+        for (int i = 1; i <= n; i++) {
+            System.out.print(9);
+        }
     }
 }
