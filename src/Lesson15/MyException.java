@@ -3,7 +3,7 @@ package Lesson15;
 /**
  * Created by roman.girak on 29/03/2018.
  */
-public class MyException extends Exception{
+public class MyException extends Exception {
 //    Create your own exception class MyException using the extends keyword.
 //    Write a constructor for this class that takes a String argument and stores it
 //    inside the object with a String reference.
