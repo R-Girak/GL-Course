@@ -11,5 +11,8 @@ public class Main {
         ArrayProcessing arrayProcessing = new ArrayProcessing();
         int[] result = arrayProcessing.uniqueElements(new int[]{1, 2, 4, 2, 5});
         System.out.println(Arrays.toString(result));
+
+        int[] result2 = arrayProcessing.uniqueElements(new int[]{1, 2, 4, 5}, new int[]{1, 3, 7, 5});
+        System.out.println(Arrays.toString(result2));
     }
 }

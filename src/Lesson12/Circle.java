@@ -1,4 +1,4 @@
-package Lesson11;
+package Lesson12;
 
 /**
  * Created by roman.girak on 22/03/2018.
@@ -25,5 +25,11 @@ public class Circle extends Shape {
     public String toString() {
         //return "This is a Circle. Color: " + super.getShapeColor() + ". Radius: " + radius;
         return super.toString() + ". Radius: " + radius;
+    }
+
+    @Override
+    public void draw() {
+        System.out.print(this.toString());
+        System.out.println(". Area: " + this.calcArea());
     }
 }

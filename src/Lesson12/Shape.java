@@ -1,18 +1,19 @@
-package Lesson11;
+package Lesson12;
 
 /**
  * Created by roman.girak on 22/03/2018.
  */
-public class Shape {
+abstract class Shape implements Drawable {
     private String shapeColor;
 
     public Shape(String shapeColor) {
         this.shapeColor = shapeColor;
     }
 
-    public double calcArea() {
-        return 0.0;
-    }
+    @Override
+    public abstract void draw();
+
+    abstract double calcArea();
 
     @Override
     public String toString() {
